@@ -1,5 +1,8 @@
 # HTML-CSS-page-layout
 
+### Simple flexbox page layout
+[Simple page layout](https://zion86.github.io/HTML-CSS-page-layout/Flexbox-layout/)
+
 ### Sticky footer
 [Flexbox layout with sticky footer](https://zion86.github.io/HTML-CSS-page-layout/Flexbox-layout-with-sticky-footer/)
 
