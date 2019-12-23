@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+header {
+  min-height: 100px;
+  background-color: tomato;
+}
+
+main {
+  flex-grow: 1;
+  background-color: aqua;
+}
+
+footer {
+  min-height: 100px;
+  background-color: limegreen;
+}

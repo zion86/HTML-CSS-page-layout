@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.grid__row {
+  width: 100%;
+  padding: 3px;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  align-items: flex-start;
+}
+
+.text {
+  flex: 1;
+  margin: 3px;
+  padding: 5px;
+  background-color: limegreen;
+  border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
