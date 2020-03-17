@@ -3,6 +3,9 @@
 ### Simple flexbox page layout
 [Simple page layout](https://zion86.github.io/HTML-CSS-page-layout/Flexbox-layout/)
 
+### Flexbox layout with inner gap
+[Flexbox layout with inner gap](https://zion86.github.io/HTML-CSS-page-layout/Flexbox-layout-with-inner-gap/index.html)
+
 ### Sticky footer
 [Flexbox layout with sticky footer](https://zion86.github.io/HTML-CSS-page-layout/Flexbox-layout-with-sticky-footer/)
 
