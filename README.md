@@ -3,6 +3,9 @@
 ### Simple flexbox page layout
 [Simple page layout](https://zion86.github.io/HTML-CSS-page-layout/Flexbox-layout/)
 
+### Simple mobile first web page
+[mobile first web page](https://zion86.github.io/HTML-CSS-page-layout/Mobile-first-responsive-web-design-layout/index.html)
+
 ### Flexbox layout with inner gap
 [Flexbox layout with inner gap](https://zion86.github.io/HTML-CSS-page-layout/Flexbox-layout-with-inner-gap/index.html)
 
