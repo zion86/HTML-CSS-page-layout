@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 64px;
+  }
+}
+
+@media (min-width: 1088px) {
+  .container {
+    width: 960px;
+    padding: 0 64px;
+  }
+}
+
+.header {
+  background-color: coral;
+}
+
+.footer {
+  background-color: darkcyan;
+}
+
+/* NAVIGATION */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__logo {
+  padding: 5px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.nav__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.nav__item {
+  width: 100%;
+	text-align: center;
+}
+
+.nav__link {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: white;
+  
+}
+
+@media (min-width: 768px) {
+  .nav__list {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1088px) {
+  .nav {
+    min-height: 40px;
+    width: 100%;
+    flex-direction: row;
+  }
+}
+
+/* CARD */
+
+.card__wrapper {
+  margin: 10px -10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  flex-basis: 420px;
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card__title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 26px;
+}
+.card__img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .card__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: 420px;
+    flex: 1 0 220px;
+    max-width: 264px;
+  }
+}
+
+/* FOOTER */
+
+.social {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.social__icon {
+  width: 100%;
+}
+
+.social__link {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .social {
+    flex-direction: row;
+  }
+}
