@@ -18,26 +18,23 @@ body {
   padding: 0 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .container {
-    width: 640px;
-    padding: 0 64px;
+    width: 540px;
+    padding: 0 20px;
   }
 }
 
-@media (min-width: 1088px) {
+@media (min-width: 992px) {
   .container {
     width: 960px;
-    padding: 0 64px;
+    padding: 0 40px;
   }
 }
 
+/* HEADER */
 .header {
   background-color: coral;
-}
-
-.footer {
-  background-color: darkcyan;
 }
 
 /* NAVIGATION */
@@ -78,16 +75,15 @@ body {
 
 .nav__link:hover {
   color: white;
-  
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .nav__list {
     flex-direction: row;
   }
 }
 
-@media (min-width: 1088px) {
+@media (min-width: 992px) {
   .nav {
     min-height: 40px;
     width: 100%;
@@ -106,7 +102,7 @@ body {
 .card {
   margin: 10px;
   padding: 10px;
-  flex-basis: 420px;
+  flex-basis: 440px;
   display: flex;
   flex-direction: column;
   background-color: aquamarine;
@@ -125,7 +121,7 @@ body {
   border-radius: 12px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .card__wrapper {
     display: flex;
     flex-direction: row;
@@ -133,13 +129,24 @@ body {
   }
 
   .card {
-    height: 420px;
-    flex: 1 0 220px;
-    max-width: 264px;
+    height: 440px;
+    flex: 1 0 230px;
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    flex: 1 0 260px;
+    max-width: 280px;
   }
 }
 
 /* FOOTER */
+.footer {
+  padding: 20px 0;
+  background-color: darkcyan;
+}
 
 .social {
   list-style: none;
@@ -149,6 +156,7 @@ body {
 
 .social__icon {
   width: 100%;
+  background-color: lightcoral;
 }
 
 .social__link {
@@ -161,9 +169,14 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
-@media (min-width: 768px) {
+.social__link:hover {
+  color: chartreuse;
+}
+
+@media (min-width: 576px) {
   .social {
     flex-direction: row;
   }
