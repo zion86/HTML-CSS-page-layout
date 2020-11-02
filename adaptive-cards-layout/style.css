@@ -48,13 +48,13 @@ a {
 
 
 .cards {
-  /* overflow: hidden; */
+  overflow: hidden;
   font-size: 1.6rem;
 }
 .cars__list {
   margin-right: var(--gap-min);
   margin-bottom: var(--gap-min);
-  padding: var(--gap) 0;
+  padding: var(--gap) 4px;
   display: flex;
   flex-wrap: wrap;
 }
