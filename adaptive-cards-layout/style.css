@@ -1,11 +1,10 @@
 :root {
   /* container */
-  --container-width: 1200px;
-  /* --container-padding: 2%; */
+  --container-width: 1248px;
 
   /* card gap */
-  --gap: 2%;
-  --gap-min: -2%;
+  --gap: 24px;
+  --gap-min: -24px;
 
   /* border-radius */
   --br: 8px;
@@ -39,11 +38,10 @@ a {
 
 .container {
   max-width: var(--container-width);
-  width: 96%;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: var(--container-padding); */
-  /* padding-right: var(--container-padding); */
+  padding-left: var(--gap);
+  padding-right: var(--gap);
 }
 
 
@@ -54,7 +52,7 @@ a {
 .cars__list {
   margin-right: var(--gap-min);
   margin-bottom: var(--gap-min);
-  padding: var(--gap) 4px;
+  padding: 2px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -63,8 +61,6 @@ a {
   margin-bottom: var(--gap);
   width: 100%;
 }
-
-
 .cards__link {
   display: flex;
   flex-direction: column;
@@ -76,7 +72,7 @@ a {
   transition: 0.3s box-shadow ease;
 }
 .cards__link:hover {
-  box-shadow: 0 0 4px 2px #FFC107;
+  box-shadow: 0 0 2px 2px #FFC107;
 }
 
 .cards__img {
